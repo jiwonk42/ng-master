@@ -1,6 +1,6 @@
 import { Book } from './book.model';
 
-books: Book[] = [
+export const BOOKS: Book[] = [
   new Book("Ng-Book 2: The Complete Book on Angular 2 (2016)",
  "Ari Lerner, Felipe Coury, and Nate Murray",
 55, "https://prodimage.images-bn.com/pimages/9780991344611_p0_v1_s192x300.jpg", "ng-book 2. The in-depth, complete, and up-to-date book on Angular 2. Become an Angular 2 expert today.", 1),
